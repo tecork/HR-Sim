@@ -8,11 +8,10 @@
 A cross platform script for artifical cardiac triggering.
 
 ## Features
-* Fast numerical optimizations for MR gradient waveform design (typically 1-100ms).
-* Core libraries built completely in C for native integration in pulse sequences.
-* Python and Matlab wrappers for easy prototyping.
-* Flexible constraint system to enable a range of application.
-* Constraints applied in a modular fashion, so adding additional ones is relatively straightforward.
+* Compadible with devices that take a 5V input via RCA plug.
+* Script written in both MATLAB and Python.
+* Directly writes and saves output for Ardunio (.INO) after running the main script.
+* Upload the .INO to the Ardunio via USB.
 
 ## Contents
 - [Features](#features)
@@ -20,15 +19,14 @@ A cross platform script for artifical cardiac triggering.
 - [Demos](#demos)
 - [Documentation](#documentation)
 
-## Updates
+## Requirements
+* [Open-Source Arduino IDE](https://www.arduino.cc/en/Main/Software)
+* [Arduino Uno](https://www.digikey.com/product-detail/en/arduino/A000073/1050-1041-ND/3476357)
+* [BNC Connector - Right Angle](https://www.digikey.com/product-detail/en/molex-llc/0731375003/WM5514-ND/1465136)
+* [USB Cable A to B - 6 Feet](https://www.digikey.com/product-detail/en/molex/0887329400/WM17134-ND/1212447)
+* [25 feet RCA male - BNC female Cable](https://www.cablewholesale.com/specs/11x1-02125.php?utm_source=GoogleShopping&utm_medium=cpc&utm_term=11X1-02125&utm_campaign=RG59U%20Coaxial%20BNC%20to%20RCA%20Video%20Cable%2C%20Black%2C%20BNC%20Male%20to%20RCA%20Male%2C%2075%20Ohm%2C%2064%25%20Braid%2C%2025%20foot&gclid=EAIaIQobChMI_43148Hg3AIVjddkCh0vIwsJEAkYASABEgIqovD_BwE)
 
-#### ----
- * OpenMP version of TE finder is better implemented. See demo in the `test_TE_finder` function of src/optimize_kernel.c, which will call multiple GrOpt evals simultaneously to find the shortest feasible TE.
-#### ----
- * AR-SDMM solver is in its own branch (arsdmm), currently merging 
-#### ----
- * Added minTE_finder in src/optimize_kernel.c (minTE_diff function) to more efficiently fine the minimum TE
- * Added simultaneuous axis optimization, contorlled with `Naxis` argument to optimize calls
+
 
 
 ## Installation
