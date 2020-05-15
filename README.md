@@ -5,13 +5,13 @@
   </a>
 </p>
 
-A cross platform script for artifical cardiac triggering.
+A cross platform script for artificial cardiac triggering.
 
 ## Features
 * Compatible with devices that take a 5V input via RCA plug
 * Script written in both MATLAB and Python.
 * Automatically write and save output compatible file for Arduino Uno(.INO) after running the main script.
-* Upload the .INO to the Ardunio via USB using the Arduino IDE.
+* Upload the .INO to the Arduino via USB using the Arduino IDE.
 
 ## Parts and Required Software
 * [Open-Source Arduino IDE](https://www.arduino.cc/en/Main/Software)
@@ -22,15 +22,25 @@ A cross platform script for artifical cardiac triggering.
 
 ## Instructions
 
-Attachting BNC Connector to Arduino
-* Place ground lead (silver wire) into pin labeled GND on the digital side of the Arduino Uno.
-* Place hot lead (gold wire) into pin labeled 13 on the digital side of the Arduino Uno.
-
 Running the Script
-* Set input directory. Figures ("Guassian Distribution of Heart Beat Times" and "Trigger to Scanner"), Arduino Unio Files (.INO), and a spreadsheet key will be generated in a folder within this directory.
+* Set input directory. Figures ("Gaussian Distribution of Heart Beat Times" and "Trigger to Scanner"), Arduino Uno Files (.INO), and a spreadsheet key will be generated in a folder within this directory.
 * Set desired number of beats to generate.
 * Set desired number of beats to skip (useful for systems with systems that are prone to ECG interference i.e. MRI).
 * Set desired mean R-R interval (in milliseconds).
 * Set desired standard deviation of R-R interval (in milliseconds).
-* The rest of the code is fully automaded from here.
+* The rest of the code is fully automated from here.
+
+Uploading to Arduino Uno
+* Open the Arduino IDE 
+* Using the USB A to B connector, connect the Arduino Uno to the computer.
+* Proceed to upload the generated .INO file to the Arduino.
+
+Attaching BNC Connector - right angle to Arduino
+* Place ground lead (silver wire) into pin labeled GND on the digital side of the Arduino Uno.
+* Place hot lead (gold wire) into pin labeled 13 on the digital side of the Arduino Uno.
+
+Using the Arduino Uno
+* Keep Arduino Uno Plugged into to USB as it needs a power source.
+* Connect BNC female end of the RCA male plug - BNC female cable to the BNC connector - right angle.
+* Plug RCA male plug into RCA female jack on device your intend to trigger.
 
