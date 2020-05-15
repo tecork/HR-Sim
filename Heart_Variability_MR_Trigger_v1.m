@@ -10,8 +10,8 @@ clc
 indir     = '/Users/tecork/Desktop/';   % Initial Directory
 N_beats   = 300;                        % Number of Beats
 N_skipped = 30;                         % Number of Skipped Heart Beats
-RR_mean   = 1000;                       % Mean R-R interval
-RR_std    = 65.0;                       % Standard Deviation of R-R Interval
+RR_mean   = 1014;                       % Mean R-R interval
+RR_std    = 65.3;                       % Standard Deviation of R-R Interval
 
 % R-R mean of 1014 and R-R Standard Deviation of 65.3 come from this paper:
 % https://onlinelibrary.wiley.com/doi/abs/10.1111/anae.12317 
