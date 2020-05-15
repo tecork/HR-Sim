@@ -22,7 +22,7 @@ A cross platform script for artifical cardiac triggering.
 
 ## Instructions
 * Attachting BNC Connector to Arduino
-- Place ground lead (silver wire) into pin labeled GND on the digital side of the Arduino Uno.
-- Place hot lead (gold wire) into pin labeled 13 on the digital side of the Arduino Uno.
+-. Place ground lead (silver wire) into pin labeled GND on the digital side of the Arduino Uno.
+-. Place hot lead (gold wire) into pin labeled 13 on the digital side of the Arduino Uno.
 * Running the Script
 
