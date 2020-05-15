@@ -1,12 +1,11 @@
 # HR-Sim
-A cross platform (Matlab and Python) script that creates an artificial trigger, based off user input parameters, that writes to an Arduino Uno importable file.
 <p align="left">
   <a href="https://github.com/tecork/HR-Sim/">
     <img src="docs/HR_Sim_Logo.png" height="110">
   </a>
 </p>
 
-A toolbox for MRI Gradient Optimization (GrOpt)
+A cross platform script for artifical cardiac triggering.
 
 ## Features
 * Fast numerical optimizations for MR gradient waveform design (typically 1-100ms).
