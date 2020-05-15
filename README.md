@@ -27,4 +27,10 @@ Attachting BNC Connector to Arduino
 * Place hot lead (gold wire) into pin labeled 13 on the digital side of the Arduino Uno.
 
 Running the Script
+* Set input directory. Figures ("Guassian Distribution of Heart Beat Times" and "Trigger to Scanner"), Arduino Unio Files (.INO), and a spreadsheet key will be generated in a folder within this directory.
+* Set desired number of beats to generate.
+* Set desired number of beats to skip (useful for systems with systems that are prone to ECG interference i.e. MRI).
+* Set desired mean R-R interval (in milliseconds).
+* Set desired standard deviation of R-R interval (in milliseconds).
+* The rest of the code is fully automaded from here.
 
