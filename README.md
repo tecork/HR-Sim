@@ -19,3 +19,10 @@ A cross platform script for artifical cardiac triggering.
 * [BNC Connector - Right Angle](https://www.digikey.com/product-detail/en/molex-llc/0731375003/WM5514-ND/1465136)
 * [USB Cable A to B - 6 Feet](https://www.digikey.com/product-detail/en/molex/0887329400/WM17134-ND/1212447)
 * [25 feet RCA male - BNC female Cable](https://www.cablewholesale.com/specs/11x1-02125.php?utm_source=GoogleShopping&utm_medium=cpc&utm_term=11X1-02125&utm_campaign=RG59U%20Coaxial%20BNC%20to%20RCA%20Video%20Cable%2C%20Black%2C%20BNC%20Male%20to%20RCA%20Male%2C%2075%20Ohm%2C%2064%25%20Braid%2C%2025%20foot&gclid=EAIaIQobChMI_43148Hg3AIVjddkCh0vIwsJEAkYASABEgIqovD_BwE)
+
+## Instructions
+* Attachting BNC Connector to Arduino
+- Place ground lead (silver wire) into pin labeled GND on the digital side of the Arduino Uno.
+- Place hot lead (gold wire) into pin labeled 13 on the digital side of the Arduino Uno.
+* Running the Script
+
